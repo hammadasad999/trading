@@ -1,0 +1,36 @@
+<link rel="stylesheet" type="text/css" href="cssjs/w3.css">
+<div class="hdcont">
+    <div class="container">
+        <div class="row" style="display: flex;
+    justify-content: center;">
+            <div class="col-md-6">
+                
+                <script language=javascript>
+                    function checkform() {
+  if (document.forgotform.email.value == '') {
+    alert("Please type your username or email!");
+    document.forgotform.email.focus();
+    return false;
+  }
+  return true;
+}
+</script>
+                
+                                                                <form method=post name=forgotform onsubmit="return checkform();" class="w3-conatiner w3-card-4 w3-padding "><input type="hidden" name="form_id" value="16428450136414"><input type="hidden" name="form_token" value="59e6e1ce0e93c56244607cd1965ad816">
+                    <h3 class="w3-padding w3-large ">Forgot Your Password</h3>
+                    <input type=hidden name=a value="forgot_password" class="w3-input w3-border">
+                    <input type=hidden name=action value="forgot_password" class="w3-input w3-border w3-margin-top">
+                    <div class="col-sm-12">
+                        <input type=text name='email' value="" placeholder="Type your username or e-mail" class="w3-input w3-border w3-margin-top">
+                    </div>
+                    
+                    <div class="w3-conatiner w3-margin">
+                        <input type="submit" value="REset Password">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+</div>
+</div>
